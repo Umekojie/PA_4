@@ -6,3 +6,6 @@ import random
 list_of_numbers = []
 for i in range (1,10):
     list_of_numbers.append(random.randint(1,10))
+print(len(list_of_numbers))
+print(sum(list_of_numbers))
+print(sum(list_of_numbers)/len(list_of_numbers))
